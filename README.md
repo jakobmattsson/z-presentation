@@ -21,3 +21,10 @@ The code also contains a method called `concatUrl` which simply combines the giv
 ### Promises between
 
 In the folder `promises-between` there are examples on how Z does deep resolution, wraps functions to accept promises and enables mixins.
+
+
+### The Z-library itself
+
+Go here: [Z](https://github.com/jakobmattsson/z-core)
+
+
