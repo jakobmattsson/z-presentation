@@ -5,6 +5,8 @@
 // Now we're talking! The 
 // The functions "post", "concatUrl", "getAfter" and "assertEquals"
 // not only returns promises now, but also accepts them as arguments.
+// If you want implementation details, read this:
+// https://github.com/jakobmattsson/z-presentation/issues/1
 
 // The consequence of this is that no manual resolution of the promises
 // is needed. We just recieve them and pass them around. No callback,
