@@ -2,6 +2,8 @@
 
 Code for the talk given at Sthlm.js 25 February 2014.
 
+[Slides at speakerdeck.com](https://speakerdeck.com/jakobmattsson/how-to-star-actually-star-use-promises-in-javascript)
+
 
 
 ### Promises in and out
