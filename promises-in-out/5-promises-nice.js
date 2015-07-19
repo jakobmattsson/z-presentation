@@ -21,6 +21,13 @@
 // This code is vastly more readable than all other examples and it executes
 // faster without any manual effort. This is how promises should be used!
 
+var concatUrl = function() {
+  var args = Array.prototype.slice.call(0, arguments);
+  return args.join('/');
+};
+
+concatUrl = Z.bindSync(concatUrl);
+
 var blog = post('/blogs', {
   name: 'My blog'
 });
@@ -72,3 +79,9 @@ assertEquals(blogInfo, {
   numberOfEntries: 2,
   numberOfComments: 3
 });
+
+blogInfo.fail(function(err) {
+  // ....
+})
+
+
